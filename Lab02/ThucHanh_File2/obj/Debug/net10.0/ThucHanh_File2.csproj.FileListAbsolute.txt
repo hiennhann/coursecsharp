@@ -1,0 +1,15 @@
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\bin\Debug\net10.0\ThucHanh_File2.exe
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\bin\Debug\net10.0\ThucHanh_File2.deps.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\bin\Debug\net10.0\ThucHanh_File2.runtimeconfig.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\bin\Debug\net10.0\ThucHanh_File2.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\bin\Debug\net10.0\ThucHanh_File2.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.GeneratedMSBuildEditorConfig.editorconfig
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.AssemblyInfoInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.AssemblyInfo.cs
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.csproj.CoreCompileInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.sourcelink.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\refint\ThucHanh_File2.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ThucHanh_File2.genruntimeconfig.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab02\ThucHanh_File2\obj\Debug\net10.0\ref\ThucHanh_File2.dll

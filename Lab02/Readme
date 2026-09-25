@@ -1,0 +1,5 @@
+
+
+Lệnh để chạy ở 2 folder
+ThucHanh_File2:dotnet run --property:StartupObject=ThucHanh_File2.Bai03
+ThucHanh_OOP_File3:dotnet run --property:StartupObject=ThucHanh_OOP_File3.Bai1_1

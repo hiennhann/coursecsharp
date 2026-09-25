@@ -1,0 +1,15 @@
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.exe
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.deps.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.runtimeconfig.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\bin\Debug\net10.0\BaiThucHanhLINQ.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.GeneratedMSBuildEditorConfig.editorconfig
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.AssemblyInfoInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.AssemblyInfo.cs
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.csproj.CoreCompileInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.sourcelink.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\refint\BaiThucHanhLINQ.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\BaiThucHanhLINQ.genruntimeconfig.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab03\BaiThucHanhLINQ\obj\Debug\net10.0\ref\BaiThucHanhLINQ.dll

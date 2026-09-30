@@ -100,7 +100,7 @@ namespace BaiThucHanhLINQ
             Console.WriteLine($"c. Số phần tử bắt đầu bằng 'Bánh': {monAn.Count(x => x.StartsWith("Bánh"))}");
         }
 
-        // Bài 4.1. Lớp MonHoc và dữ liệu (Giữ nguyên)
+        // Bài 4.1. Lớp MonHoc và dữ liệu 
         public class MonHoc
         {
             public string MaMon { get; set; } = "";
@@ -141,7 +141,7 @@ namespace BaiThucHanhLINQ
             var ds = DS_Mon();
 
             Console.WriteLine("a. Môn học bắt đầu bằng 'Lập trình':");
-            Console.WriteLine($"   {string.Join(", ", ds.Where(m => m.TenMon.StartsWith("Lập trình")).Select(m => m.TenMon))}");
+            Console.WriteLine($"   {string.Join(", \n ", ds.Where(m => m.TenMon.StartsWith("Lập trình")).Select(m => m.TenMon))}");
 
             Console.WriteLine("b. Hệ CD (số tiết giảm dần, mã môn tăng dần):");
             // Sắp xếp đa tầng: OrderByDescending chạy trước, kết quả bằng nhau thì xét tiếp ThenBy
@@ -183,11 +183,11 @@ namespace BaiThucHanhLINQ
 
             Console.WriteLine("h. Liệt kê môn học theo Hệ:");
             foreach (var g in ds.GroupBy(m => m.He))
-                Console.WriteLine($"   - Hệ '{g.Key}': {string.Join(", ", g.Select(m => m.TenMon))}");
+                Console.WriteLine($"   - Hệ '{g.Key}': {string.Join(",\n ", g.Select(m => m.TenMon))}");
 
             Console.WriteLine("i. Liệt kê môn học theo Số tiết (tăng dần):");
             foreach (var g in ds.GroupBy(m => m.SoTiet).OrderBy(g => g.Key))
-                Console.WriteLine($"   - {g.Key} tiết: {string.Join(", ", g.Select(m => m.TenMon))}");
+                Console.WriteLine($"   - {g.Key} tiết: {string.Join(", \n", g.Select(m => m.TenMon))}");
 
             Console.WriteLine("j. Phân nhóm hệ KTV theo HP2..HP5:");
             // Substring(0, 3) lấy 3 ký tự đầu của Mã môn (VD: "HP2_1" -> "HP2") làm Key gom nhóm
@@ -196,10 +196,10 @@ namespace BaiThucHanhLINQ
 
             Console.WriteLine("k. Nhóm theo Hệ (Số tiết > 40):");
             foreach (var g in ds.Where(m => m.SoTiet > 40 && !string.IsNullOrEmpty(m.He)).OrderBy(m => m.MaMon).GroupBy(m => m.He))
-                Console.WriteLine($"   - Hệ {g.Key}: {string.Join(", ", g.Select(m => m.TenMon))}");
+                Console.WriteLine($"   - Hệ {g.Key}: {string.Join(", \n", g.Select(m => m.TenMon))}");
         }
 
-        // Bài 6.1. Xây dựng lớp He (Giữ nguyên)
+        // Bài 6.1. Xây dựng lớp He 
         public class He
         {
             public string MaHe { get; set; } = "";

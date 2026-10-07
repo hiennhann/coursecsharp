@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "BaiTH4C/1.0.0": {
+        "runtime": {
+          "BaiTH4C.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BaiTH4C/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

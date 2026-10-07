@@ -1,0 +1,15 @@
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.GeneratedMSBuildEditorConfig.editorconfig
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.AssemblyInfoInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.AssemblyInfo.cs
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.csproj.CoreCompileInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.sourcelink.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\bin\Debug\net10.0-windows\BaiTH4C.exe
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\bin\Debug\net10.0-windows\BaiTH4C.deps.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\bin\Debug\net10.0-windows\BaiTH4C.runtimeconfig.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\bin\Debug\net10.0-windows\BaiTH4C.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\bin\Debug\net10.0-windows\BaiTH4C.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\refint\BaiTH4C.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\BaiTH4C.genruntimeconfig.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab04\BaiTH4C\obj\Debug\net10.0-windows\ref\BaiTH4C.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaiTH4D")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+617146e51660afda070846601e174493c5bdf35f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c42633914f881821c59a6a076140a6cfecfe6bd")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaiTH4D")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaiTH4D")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

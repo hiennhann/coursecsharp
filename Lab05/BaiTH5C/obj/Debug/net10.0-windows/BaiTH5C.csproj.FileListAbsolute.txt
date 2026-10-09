@@ -1,0 +1,15 @@
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\bin\Debug\net10.0-windows\BaiTH5C.exe
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\bin\Debug\net10.0-windows\BaiTH5C.deps.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\bin\Debug\net10.0-windows\BaiTH5C.runtimeconfig.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\bin\Debug\net10.0-windows\BaiTH5C.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\bin\Debug\net10.0-windows\BaiTH5C.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.GeneratedMSBuildEditorConfig.editorconfig
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.AssemblyInfoInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.AssemblyInfo.cs
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.csproj.CoreCompileInputs.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.sourcelink.json
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\refint\BaiTH5C.dll
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.pdb
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\BaiTH5C.genruntimeconfig.cache
+D:\sgu\2026-2027\CSharp\BTcanhan\Lab05\BaiTH5C\obj\Debug\net10.0-windows\ref\BaiTH5C.dll

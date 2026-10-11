@@ -1,5 +1,5 @@
-using System;
 using System.Windows.Forms;
+using BaiTH5C;
 
 namespace BaiTH5D
 {
@@ -8,98 +8,62 @@ namespace BaiTH5D
         public FormMain()
         {
             InitializeComponent();
+            ConfigureExerciseMenu();
         }
 
-        // Hàm hỗ trợ kiểm tra Form con đã mở chưa
-        private bool CheckExistForm(string name)
+        private void ConfigureExerciseMenu()
         {
-            bool check = false;
-            foreach (Form frm in this.MdiChildren)
+            ToolStripMenuItem menuBaiTH5C = new ToolStripMenuItem("Bài TH5C");
+            menuBaiTH5C.DropDownItems.Add(CreateMenuItem("Bài 1.2 - Tìm ước số", () => OpenChildForm<FormUocSo>()));
+            menuBaiTH5C.DropDownItems.Add(CreateMenuItem("Bài 1.3 - Xử lý chuỗi", () => OpenChildForm<FormChuoi>()));
+            menuBaiTH5C.DropDownItems.Add(CreateMenuItem("Bài 1.4 - Từ điển", () => OpenChildForm<FormTuDien>()));
+            menuBaiTH5C.DropDownItems.Add(CreateMenuItem("Bài 2.2 - Quản lý sinh viên", () => OpenChildForm<FormSinhVien>()));
+            menuBaiTH5C.DropDownItems.Add(CreateMenuItem("Bài 2.4 - Xử lý ListBox", () => OpenChildForm<FormListBoxXuLy>()));
+            menuBaiTH5C.DropDownItems.Add(CreateMenuItem("Bài 3.4 - Danh bạ", () => OpenChildForm<FormDanhBa>()));
+
+            ToolStripMenuItem menuBaiTH5D = new ToolStripMenuItem("Bài TH5D");
+            ToolStripMenuItem menuPhan1 = new ToolStripMenuItem("Phần 1");
+            menuPhan1.DropDownItems.Add(CreateMenuItem("Bài 1.2 - Quản lý sinh viên", () => OpenChildForm<FormBaiTap1>()));
+            menuPhan1.DropDownItems.Add(CreateMenuItem("Bài 1.3 - Quản lý học viên", () => OpenChildForm<FormQuanLyHocVien>()));
+            menuPhan1.DropDownItems.Add(CreateMenuItem("Bài 1.4 - Đồng hồ", () => OpenChildForm<FormDongHo>()));
+            menuPhan1.DropDownItems.Add(CreateMenuItem("Bài 2.2 - Quản lý tài khoản", () => OpenChildForm<FormBaiTap2>()));
+
+            ToolStripMenuItem menuPhan2 = new ToolStripMenuItem("Phần 2");
+            menuPhan2.DropDownItems.Add(CreateMenuItem("Bài 1.2 - Quản lý môn học", () => OpenChildForm<FormMonHoc>()));
+            menuPhan2.DropDownItems.Add(CreateMenuItem("Bài 1.3 - Quản lý sinh viên (ADO)", () => OpenChildForm<FormSinhVienADO>()));
+            menuPhan2.DropDownItems.Add(CreateMenuItem("Bài 1.4 - Quản lý lớp (ADO)", () => OpenChildForm<FormLopADO>()));
+            menuPhan2.DropDownItems.Add(CreateMenuItem("Bài 2.3 - Quản lý điểm (ADO)", () => OpenChildForm<FormDiemADO>()));
+
+            menuBaiTH5D.DropDownItems.Add(menuPhan1);
+            menuBaiTH5D.DropDownItems.Add(menuPhan2);
+
+            menuStrip1.Items.Add(menuBaiTH5C);
+            menuStrip1.Items.Add(menuBaiTH5D);
+        }
+
+        private static ToolStripMenuItem CreateMenuItem(string text, Action openForm)
+        {
+            ToolStripMenuItem menuItem = new ToolStripMenuItem(text);
+            menuItem.Click += (_, _) => openForm();
+            return menuItem;
+        }
+
+        private void OpenChildForm<TForm>() where TForm : Form, new()
+        {
+            foreach (Form child in MdiChildren)
             {
-                if (frm.Name == name)
+                if (child is TForm)
                 {
-                    check = true;
-                    break;
+                    child.Activate();
+                    return;
                 }
             }
-            return check;
-        }
 
-        // Hàm hỗ trợ active Form nếu nó đã mở sẵn
-        private void ActiveChildForm(string name)
-        {
-            foreach (Form frm in this.MdiChildren)
+            TForm form = new TForm
             {
-                if (frm.Name == name)
-                {
-                    frm.Activate();
-                    break;
-                }
-            }
-        }
-
-        // Gọi Bài 1: Quản lý sinh viên ListView
-        private void mnuBai1_Click(object sender, EventArgs e)
-        {
-            if (!CheckExistForm("FormBaiTap1"))
-            {
-                FormBaiTap1 frm = new FormBaiTap1();
-                frm.MdiParent = this; // Nhét vào trong Form Cha
-                frm.Name = "FormBaiTap1";
-                frm.Show();
-            }
-            else
-            {
-                ActiveChildForm("FormBaiTap1");
-            }
-        }
-
-        // Gọi Bài 2: Quản lý tài khoản
-        private void mnuBai2_Click(object sender, EventArgs e)
-        {
-            if (!CheckExistForm("FormBaiTap2"))
-            {
-                FormBaiTap2 frm = new FormBaiTap2();
-                frm.MdiParent = this;
-                frm.Name = "FormBaiTap2";
-                frm.Show();
-            }
-            else
-            {
-                ActiveChildForm("FormBaiTap2");
-            }
-        }
-
-        // Gọi Bài Quản lý học viên
-        private void mnuBai3_Click(object sender, EventArgs e)
-        {
-            if (!CheckExistForm("FormQuanLyHocVien"))
-            {
-                FormQuanLyHocVien frm = new FormQuanLyHocVien();
-                frm.MdiParent = this;
-                frm.Name = "FormQuanLyHocVien";
-                frm.Show();
-            }
-            else
-            {
-                ActiveChildForm("FormQuanLyHocVien");
-            }
-        }
-
-        // Gọi Bài Đồng hồ
-        private void mnuDongHo_Click(object sender, EventArgs e)
-        {
-            if (!CheckExistForm("FormDongHo"))
-            {
-                FormDongHo frm = new FormDongHo();
-                frm.MdiParent = this;
-                frm.Name = "FormDongHo";
-                frm.Show();
-            }
-            else
-            {
-                ActiveChildForm("FormDongHo");
-            }
+                MdiParent = this
+            };
+            form.Show();
         }
     }
 }

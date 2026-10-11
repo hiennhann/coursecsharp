@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaiTH5D")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e845017f6662a4e680500a537cd6fa040abed1f9")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+80e99a20a07297789625e6a063ccf74b64b2c673")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaiTH5D")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaiTH5D")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

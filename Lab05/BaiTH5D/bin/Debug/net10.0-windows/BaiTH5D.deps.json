@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v10.0": {
       "BaiTH5D/1.0.0": {
         "dependencies": {
+          "BaiTH5C": "1.0.0",
           "MySql.Data": "26.7.0"
         },
         "runtime": {
@@ -106,6 +107,14 @@
             "fileVersion": "0.8.8.0"
           }
         }
+      },
+      "BaiTH5C/1.0.0": {
+        "runtime": {
+          "BaiTH5C.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
       }
     }
   },
@@ -163,6 +172,11 @@
       "sha512": "sha512-UIDFkA5DC3en3tOJ3Mof11yBx9kUQLsaeo/oFdvN6Bbkr9E9+VCqfIadHci8cu+I51K2Sl7XYWVl2R/mA75NBQ==",
       "path": "zstdsharp.port/0.8.8",
       "hashPath": "zstdsharp.port.0.8.8.nupkg.sha512"
+    },
+    "BaiTH5C/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

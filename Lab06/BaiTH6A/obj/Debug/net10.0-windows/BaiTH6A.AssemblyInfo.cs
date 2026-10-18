@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BaiTH6A")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5260d2a82856a3adda44c03422cdd201d58033e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6468661f64a27ec70374b3abe3dfef0be187ca83")]
 [assembly: System.Reflection.AssemblyProductAttribute("BaiTH6A")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BaiTH6A")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

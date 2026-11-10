@@ -1,6 +1,10 @@
-# Course C#
+# Ngôn ngữ lập trình C#
 
-Kho lưu trữ các bài thực hành và bài tập trong quá trình học lập trình C# và .NET. Nội dung được sắp xếp theo từng buổi/lab, gồm các chương trình C#, bài tập LINQ và một số tệp SQL phục vụ phần làm việc với cơ sở dữ liệu.
+**Giảng viên hướng dẫn:** TS. Đỗ như tài  
+**Sinh viên:** Nguyễn Văn Hiền nhân  
+**MSSV:** 3123411207
+
+Kho lưu trữ các bài thực hành và bài tập trong quá trình học lập trình C# và .NET. Nội dung được sắp xếp theo từng buổi/lab, gồm các chương trình C# và bài tập thực hành.
 
 ## Nội dung
 

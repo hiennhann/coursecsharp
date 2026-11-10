@@ -51,7 +51,6 @@ Có thể mở tệp `.slnx` trong thư mục lab bằng IDE hỗ trợ định 
 
 - Mỗi thư mục bài tập có thể là một dự án độc lập; hãy kiểm tra `.csproj` trước khi chạy.
 - Một số thư mục `bin` và `obj` là sản phẩm được tạo ra khi build dự án.
-- Các bài thực hành nhằm mục đích học tập và tham khảo.
 
 ---
 

@@ -1,7 +1,7 @@
 # Ngôn ngữ lập trình C#
 
-**Giảng viên hướng dẫn:** TS. Đỗ như tài  
-**Sinh viên:** Nguyễn Văn Hiền nhân  
+**Giảng viên hướng dẫn:** TS. Đỗ Như Tài  
+**Sinh viên:** Nguyễn Văn Hiền Nhân  
 **MSSV:** 3123411207
 
 Kho lưu trữ các bài thực hành và bài tập trong quá trình học lập trình C# và .NET. Nội dung được sắp xếp theo từng buổi/lab, gồm các chương trình C# và bài tập thực hành.
